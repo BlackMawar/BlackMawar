@@ -1,0 +1,260 @@
+body{
+  background-color: rgb(97, 97, 97);
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  color:black
+}
+
+fieldset{
+  border: none;
+}
+
+.first_fieldset{
+  display: flex;
+  vertical-align: top;
+  align-content: center;
+  position: sticky;
+}
+
+
+.topCenter{
+  width: 85%;
+  margin: auto;
+  padding:35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -20px;
+  margin-bottom: 0px;
+}
+
+ul{
+  display: flex;
+}
+
+.topleft{
+  display: flex;
+}
+
+li{
+  list-style-type: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.employers {
+  background-color: blue; /* Green */
+  border: none;
+  border-radius: 30px;
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: -20px;
+  margin-left: 30px;
+  align-content: flex-end;
+}
+.employers:hover{
+  color:black;
+}
+
+
+.second_fieldset{
+  display: flex;
+  vertical-align: top;
+  align-content: center;
+  width: 99%;
+  height: 402px;
+}
+
+.SearchText{
+  text-align: center;
+}
+.SearchBox{
+  display: inline-flex;
+  width: 50%;
+  background: #fff;
+  border-radius: 10px;
+  margin-left: 25%;
+  align-content: center;
+}
+
+form{
+  display: inline-flex;
+  width: 70%;
+  margin-left: 10%;
+}
+
+input{
+  border: none;
+}
+.divider{
+    display: inline-block;
+    height: 40px;
+    border-left: 1px solid #ddd;
+    margin: 0 1.5%;
+    vertical-align: middle;
+}
+
+#imgLeft{
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    vertical-align: top;
+    margin: 0em;
+}
+#imgRight{
+  display: inline-block;
+  width: 25%;
+  height: 100%;
+  vertical-align: top;
+  margin: 0em;
+}
+
+.secondCenter{
+  display: inline-block;
+    width: 70%;
+    height: 100%;
+    background-color:rgb(50, 70, 241);
+}
+
+.signBox{
+  text-align: center;
+}
+
+
+.third_fieldset{
+  display: block;
+  width: 100%;
+  padding: 3rem 0;
+}
+
+.trends{
+  display: block;
+  width: 100%;
+  line-height: 10px;
+  font-size: 30px;
+  font-weight: 300;
+  color: Black;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.view_all{
+  display: block;
+  width: 100%;
+  line-height: 20;
+  font-size: 16px;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+}
+
+
+.fourth_fieldset{
+  display: block;
+  width: 100%;
+  padding: 3rem 0;
+  border-top: 1px solid oldlace;
+}
+
+.inner_box{
+  display: block;
+  width: 980px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.header_title{
+  display: block;
+  width: 100%;
+  line-height: 5;
+  font-size: 30px;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.popularCat{
+  text-align: center;
+  display: inline-block;
+  line-height: 50px;
+  font-weight: 300;
+  
+}
+
+.CatList{
+  display: inline-flex;
+  margin-left: 20px ;
+  margin-right:20px;
+
+}
+
+.popularLoc{
+  text-align: center;
+  display: block;
+  line-height: 50px;
+  font-weight: 300;
+  
+}
+
+.LocList{
+  display: block;
+  text-align: center;
+}
+
+
+.last_fieldset{
+  display: block;
+  width: 100%;
+  height: auto;
+  font-size: 10px;
+  color: black;
+  letter-spacing: 1px;
+  text-align: center;
+  border-top: 1px solid rgb(255, 254, 254);
+  text-align: center;
+}
+
+
+.index_footer{
+  display: block;
+  margin: 13px 0;
+}
+
+.Company{
+  display: inline-block;
+  width: 25%;
+  height: auto;
+  text-align: center;
+  margin: 3% 0 0;
+  vertical-align: top;
+}
+.Jobseeker{
+  display: inline-block;
+  width: 25%;
+  height: auto;
+  text-align: center;
+  margin: 3% 0 0;
+  vertical-align: top;
+}
+.Employer1{
+  display: inline-block;
+  width: 25%;
+  height: auto;
+  text-align: center;
+  margin: 3% 0 0;
+  vertical-align: top;
+}
